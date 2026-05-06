@@ -69,8 +69,8 @@
             </select>
         </div>
         <div>
-            <label class="text-xs font-bold tracking-wider text-gray-500">BUDGET MAKSIMUM</label>
-            <input type="number" name="budget" placeholder="≤ Rp 8.000.000"
+            <label class="text-xs font-bold tracking-wider text-gray-500">BUDGET</label>
+            <input type="number" name="budget" placeholder="Tulis Budget Anda (Tanpa Titik)"
                 value="{{ $savedFilter['budget'] ?? '' }}" class="input-field mt-1">
         </div>
     </div>
